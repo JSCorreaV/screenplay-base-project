@@ -1,1 +1,1 @@
-# screenplay-base-project
+# screenplay-serenitybdd-base-project
