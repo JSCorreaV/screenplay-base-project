@@ -10,13 +10,12 @@ Feature: Wikipedia demo
   Scenario: Learn about Colombia
     When he search for "Colombia"
     Then he should see all info about "Colombia"
-
-
+    
   @Smoke @Regression
-  Scenario: Learn about Colombia
-    When he search for "Peru"
-    Then he should see all info about "Peru"
+  Scenario: Learn about Ecuador
+    When he search for "Ecuador"
+    Then he should see all info about "Ecuador"
 
-  Scenario: Learn about Colombia
+  Scenario: Learn about Venezuela
     When he search for "Venezuela"
     Then he should see all info about "Venezuela"
