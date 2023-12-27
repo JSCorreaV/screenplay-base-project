@@ -10,7 +10,7 @@ Feature: Wikipedia demo
   Scenario: Learn about Colombia
     When he search for "Colombia"
     Then he should see all info about "Colombia"
-    
+
   @Smoke @Regression
   Scenario: Learn about Ecuador
     When he search for "Ecuador"
